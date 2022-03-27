@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^5.70.0"
+  },
+  "name": "webpack-base-use",
+  "version": "1.0.0",
+  "description": "webpack-base-use",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^5.1.2",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "file-loader": "^6.2.0",
+    "glob": "^7.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "purgecss-webpack-plugin": "^4.1.3",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:build": "webpack --mode development",
+    "prod:build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}

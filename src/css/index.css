@@ -1,0 +1,20 @@
+:root{
+  --bgColor: pink
+}
+
+body{
+  background-color: var(--bgColor);
+}
+
+.demo {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+.img1 {
+  width: 300px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: url(../images/img.jpg);
+}
